@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1604413550">
+  <File Type="BITSTR-BMM" Name="CYCLICSHIFTER_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CYCLICSHIFTER_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="CYCLICSHIFTER_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="CYCLICSHIFTER_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="CYCLICSHIFTER.tcl"/>
+  <File Type="OPT-TIMING" Name="CYCLICSHIFTER_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CYCLICSHIFTER_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="CYCLICSHIFTER_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="CYCLICSHIFTER_reports.tcl"/>
+  <File Type="OPT-DRC" Name="CYCLICSHIFTER_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="CYCLICSHIFTER.hwdef"/>
+  <File Type="PWROPT-DCP" Name="CYCLICSHIFTER_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="CYCLICSHIFTER_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="CYCLICSHIFTER_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="CYCLICSHIFTER_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CYCLICSHIFTER_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CYCLICSHIFTER_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CYCLICSHIFTER_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CYCLICSHIFTER_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CYCLICSHIFTER_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CYCLICSHIFTER_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CYCLICSHIFTER_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="CYCLICSHIFTER.bgn"/>
+  <File Type="PLACE-TIMING" Name="CYCLICSHIFTER_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CYCLICSHIFTER_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="CYCLICSHIFTER.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CYCLICSHIFTER_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CYCLICSHIFTER_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="CYCLICSHIFTER_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="CYCLICSHIFTER.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="CYCLICSHIFTER_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CYCLICSHIFTER_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CYCLICSHIFTER_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CYCLICSHIFTER_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CYCLICSHIFTER_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CYCLICSHIFTER_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CYCLICSHIFTER.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="CYCLICSHIFTER_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="CYCLICSHIFTER.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CYCLICSHIFTER_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CYCLICSHIFTER_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="CYCLICSHIFTER.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CYCLICSHIFTER_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="CYCLICSHIFTER_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="CYCLICSHIFTER_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CYCLICSHIFTER_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CYCLICSHIFTER_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CYCLICSHIFTER_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CYCLICSHIFTER_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CYCLICSHIFTER_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CYCLICSHIFTER_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CYCLICSHIFTER_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CYCLICSHIFTER_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CYCLICSHIFTER_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CYCLICSHIFTER_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CYCLICSHIFTER_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CYCLICSHIFTER_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CYCLICSHIFTER_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CYCLICSHIFTER_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CYCLICSHIFTER_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CYCLICSHIFTER_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="CYCLICSHIFTER.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CYCLICSHIFTER_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="CYCLICSHIFTER.rbt"/>
+  <File Type="BITSTR-NKY" Name="CYCLICSHIFTER.nky"/>
+  <File Type="BG-DRC" Name="CYCLICSHIFTER.drc"/>
+  <File Type="RDI-RDI" Name="CYCLICSHIFTER.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/COMPUTE_UNIT.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CONTROLLER.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/COUNTER.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DATAPATH.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OPERAND.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RIGHT_SHIFT_REG.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SHIFT_LEN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hex2seg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CYCLICSHIFTER.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CYCLICSHIFTER"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/datapathconst.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/datapathconst.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

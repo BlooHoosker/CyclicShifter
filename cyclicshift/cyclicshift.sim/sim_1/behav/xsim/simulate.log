@@ -1,0 +1,7 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Error: Chyba vysledku 0 ocekavano 1
+Time: 2935 ns  Iteration: 0  Process: /TB_COMPUTE_UNIT/SIM_GEN  File: D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sim_1/new/TB_COMPUTE_UNIT.vhd
+Failure: KONEC SIMULACE
+Time: 1638535 ns  Iteration: 0  Process: /TB_COMPUTE_UNIT/SIM_GEN  File: D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sim_1/new/TB_COMPUTE_UNIT.vhd
+$finish called at time : 1638535 ns : File "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sim_1/new/TB_COMPUTE_UNIT.vhd" Line 102

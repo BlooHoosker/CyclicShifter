@@ -1,0 +1,44 @@
+== Projekt 1: Úloha 6 - Cyklický posuv I
+=== Implementační platforma
+
+Úloha byla realizována na FPGA přípravku Digilent Basys 3
+
+=== Popis chování
+
+Cyklický posuvník 8 bitů vpravo. Nejdříve se postupně podle konfigurace přepínačů SWITCH(7:0) načte 8 bitový operand na posuv a 4 bitová hodnota v doplňkovém kódu SWITCH(3:0), která udává požadovaný počet posunutí. Hodnoty se načítají postupně pomocí stisknutí dvou tlačítek(BTNL = BTN0, BTNR = BTN1) na přípravku. Posouvá o -8 až 7 bitů a výsledek se zobrazí na 7 segmentovém displayi. Po stisknutí a držení třetího tlačítka(BTNC = BTN3) na přípravku se na displayi zobrazí původní hodnoty operandu a počet posunutí. Výsledek/originální operand se vždy zobrazí jako hexadecimální hodnota na prvních dvou 7 segmentových cifernících zprava. Po stisknutí třetího tlačítka se také zobrazí na prvním ciferníku zleva původní počet posunutí. Signál RESET je namapován na tlačítko BTND.
+
+Moje realizace posuvníku je sekvenční, vytvořil jsem klasický cyklický posuvný registr.
+
+Simulační soubor obsahuje přes 4000 řádků vygenerovaných vstupů a výstupů, aby se všechny vykonaly musí být nastavený dostatečně dlouhý simulační čas. V souboru s testbenchem se musí nastavit cesta k souboru simdata.txt proměnné SIMDATA aby testbench fungoval. Jeden z prvních výsledků v souboru je chybný, toto je záměrně, na ukázku, že test-bench skutečně porovnává výsledky.
+
+=== Graf přechodů a výstupů řadiče + Blokové schéma datové cesty
+
+
+image::../Automat+Datapath.png[width="autowidth"]
+
+
+=== Archiv se soubory
+
+link:../CyklickyPosouvac.zip[CyklickyPosouvac.zip]
+
+=== Popis souborů
+
+
+[options="autowidth"]
+|====
+^h|  Soubor                                                                ^h|  Popis
+| CYCLICSHIFTER.vhd     | Top-level entita pro nahrání do přípravku a verifikaci
+| COMPUTE_UNIT.vhd      | Entita výpočetní jednotky na které se spouští simulace
+| MUX.vhd               | Multiplexor pro výběr výstupů na segmentovce
+| Hex2seg.vhd           | Převodník segmentovky
+| DATAPATH.vhd          | Datová cesta
+| CONTROLLER.vhd        | Řídící jednotka
+| RIGHT_SHIFT_REG.vhd	| Cyklický posuvný registr vpravo
+| COUNTER.vhd	        | Čítač
+| OPERAND.vhd	        | Registr pro uložení původní hodnoty operandu
+| SHIFT_LEN.vhd	        | Registr pro uložení původní hodnoty počtu posuvů
+| TB_COMPUTE_UNIT.vhd	| Test-bench pro výpočetní jednotku
+| simdata.txt	        | Testovací data a výsledky pro test-bench. Jeden z prvních výsledků test-benche je záměrně špatně. 
+| datapathconst.xdc	    | Přiřazení pinů
+|====
+

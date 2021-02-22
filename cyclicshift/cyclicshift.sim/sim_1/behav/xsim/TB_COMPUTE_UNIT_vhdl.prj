@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../cyclicshift.srcs/sources_1/new/COMPUTE_UNIT.vhd" \
+"../../../../cyclicshift.srcs/sources_1/new/CONTROLLER.vhd" \
+"../../../../cyclicshift.srcs/sources_1/new/COUNTER.vhd" \
+"../../../../cyclicshift.srcs/sources_1/new/DATAPATH.vhd" \
+"../../../../cyclicshift.srcs/sources_1/new/OPERAND.vhd" \
+"../../../../cyclicshift.srcs/sources_1/new/RIGHT_SHIFT_REG.vhd" \
+"../../../../cyclicshift.srcs/sources_1/new/SHIFT_LEN.vhd" \
+"../../../../cyclicshift.srcs/sim_1/new/TB_COMPUTE_UNIT.vhd" \
+
+# Do not sort compile order
+nosort

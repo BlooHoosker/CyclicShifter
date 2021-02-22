@@ -1,0 +1,33 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.sim/sim_1/synth/func/xsim/TB_COMPUTE_UNIT_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CONTROLLER
+INFO: [VRFC 10-307] analyzing entity COUNTER
+INFO: [VRFC 10-307] analyzing entity HEX2SEG
+INFO: [VRFC 10-307] analyzing entity OPERAND
+INFO: [VRFC 10-307] analyzing entity RIGHT_SHIFT_REG
+INFO: [VRFC 10-307] analyzing entity SHIFT_LEN
+INFO: [VRFC 10-307] analyzing entity DATAPATH
+INFO: [VRFC 10-307] analyzing entity COMPUTE_UNIT
+INFO: [VRFC 10-307] analyzing entity CYCLICSHIFTER
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/COMPUTE_UNIT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity COMPUTE_UNIT
+WARNING: [VRFC 10-1193] overwriting existing primary unit compute_unit [D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/COMPUTE_UNIT.vhd:4]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/CONTROLLER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CONTROLLER
+WARNING: [VRFC 10-1193] overwriting existing primary unit controller [D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/CONTROLLER.vhd:4]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/COUNTER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity COUNTER
+WARNING: [VRFC 10-1193] overwriting existing primary unit counter [D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/COUNTER.vhd:7]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/DATAPATH.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DATAPATH
+WARNING: [VRFC 10-1193] overwriting existing primary unit datapath [D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/DATAPATH.vhd:4]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/OPERAND.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OPERAND
+WARNING: [VRFC 10-1193] overwriting existing primary unit operand [D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/OPERAND.vhd:4]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/RIGHT_SHIFT_REG.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RIGHT_SHIFT_REG
+WARNING: [VRFC 10-1193] overwriting existing primary unit right_shift_reg [D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/RIGHT_SHIFT_REG.vhd:4]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/SHIFT_LEN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SHIFT_LEN
+WARNING: [VRFC 10-1193] overwriting existing primary unit shift_len [D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sources_1/new/SHIFT_LEN.vhd:4]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/CVUT/Semester5/PNO/cyclicshift/cyclicshift.srcs/sim_1/new/TB_COMPUTE_UNIT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_COMPUTE_UNIT

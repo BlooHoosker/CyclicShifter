@@ -1,0 +1,24 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e542739b7cde407691b030710930c4fe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_COMPUTE_UNIT_behav xil_defaultlib.TB_COMPUTE_UNIT -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture operand_body of entity xil_defaultlib.OPERAND [operand_default]
+Compiling architecture shift_len_body of entity xil_defaultlib.SHIFT_LEN [shift_len_default]
+Compiling architecture right_shift_reg_body of entity xil_defaultlib.RIGHT_SHIFT_REG [right_shift_reg_default]
+Compiling architecture counter_body of entity xil_defaultlib.COUNTER [counter_default]
+Compiling architecture datapath_body of entity xil_defaultlib.DATAPATH [datapath_default]
+Compiling architecture controller_body of entity xil_defaultlib.CONTROLLER [controller_default]
+Compiling architecture compute_unit_body of entity xil_defaultlib.COMPUTE_UNIT [compute_unit_default]
+Compiling architecture tb_compute_unit_body of entity xil_defaultlib.tb_compute_unit
+Built simulation snapshot TB_COMPUTE_UNIT_behav
